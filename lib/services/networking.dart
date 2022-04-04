@@ -22,6 +22,6 @@ class NetworkHelper {
       print(httpResponse.statusCode);
     }
 
-    location = jsonDecode(httpResponse.body)['sys']['country'];
+    // location = jsonDecode(httpResponse.body)['sys']['country'];
   }
 }
